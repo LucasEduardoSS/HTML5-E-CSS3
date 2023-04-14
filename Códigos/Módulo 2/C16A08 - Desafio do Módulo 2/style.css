@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(fontes/BebasNeue-Regular.ttf) format(truetype), url(fontes/BebasNeue-Regular.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype); 
+}
+
+body {
+    margin: 0px;
+    background-color: #C5EBD6;
+}
+
+header {
+    padding: 40px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #2fa866, #1a5c37, #063d1e);
+}
+
+header > h1 {
+    font-family: 'Bebas Neue';
+    font-weight: 300;
+    font-size: 48px;
+    margin: 0px 0px 20px 0px;
+    text-shadow: 1px 1px 2px black;
+}
+
+header > p {
+    font-family: 'Bebas Neue';
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    text-shadow: 1px 1px 2px black;
+    padding: 0px 10px 20px 10px;
+    margin: auto;
+    text-indent: 0px;
+    line-height: normal;
+    max-width: 600px;
+}
+
+nav {
+    text-align: left;
+    background-color: #063d1e;
+    padding: 10px;
+}
+
+nav > a {
+    font: bold 16px Arial;
+    color: #82DFAC;
+    padding: 10px;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    min-width: 280px;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 49%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h1 {
+    font-family: 'idroid';
+    color: #365C37;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+main > section > h1 {
+    font-family: 'idroid';
+    color: #365C37;
+    font-weight: 400;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #83e1ad, transparent);
+    padding-left: 10px;
+}
+
+#imagem_bugdroid {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline dotted 2px;
+}
+
+#querAprenderMais {
+    background-color: #83E1AD;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.281);
+}
+
+#querAprenderMais > p {
+    padding: 10px;
+    margin: 15px 0px;
+}
+
+#querAprenderMais > h3 {
+    padding: 5px;
+}
+
+#title_querAprenderMais {
+    background-color: #1A5C37;
+    color: white;
+    font: bold 19px Arial;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 0px;
+    padding: 0px;
+}
+
+ul {
+    display: inline-block;
+    columns: 2;
+    list-style: inside;
+}
+
+footer {
+    background-color: #063D1E;
+    color: white;
+    font: 500 13px Arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer > p {
+    text-align: center;
+    padding: 0px;
+    text-indent: 0px;
+    margin: 0px;
+}
+
+footer > p > a {
+    color: white;
+    font: 700 13px Arial;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    color: #83E1AD;
+}
+

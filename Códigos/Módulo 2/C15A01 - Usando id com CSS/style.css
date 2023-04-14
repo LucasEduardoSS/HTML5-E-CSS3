@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* id em CSS = #
+   class em CSSa = .
+*/
+
+body {
+    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(62, 104, 180);
+}
+
+h1#titulo-principal {
+    text-align: center;
+    background-color: rgb(62, 104, 180);
+    color: lightgray;
+}
+
+h2 {
+    color: rgb(100, 149, 237);
+}

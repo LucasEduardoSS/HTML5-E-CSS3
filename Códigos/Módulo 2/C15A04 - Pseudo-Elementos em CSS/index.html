@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* 
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::  = pseudo-element
+            >   = children
+        */
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            color: cadetblue;
+        }
+
+        a:hover {
+            color: darkblue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: orangered
+        }
+
+        .especial::before {
+            content: '➭ ';
+        }
+
+        .audio::after {
+            content: ' ♫';
+        }
+
+        .codigo::after {
+            content: ' </>';
+        }
+
+        .estudo::after {
+            content: ' ✍';
+        }
+        
+        </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li class="especial codigo"><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">Repositório Github</a></li>
+        <li class="especial audio"><a href="https://www.youtube.com/@CursoemVideo">Canal no Youtube</a></li>
+        <li class="especial estudo"><a href="https://www.cursoemvideo.com/">Site do Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>

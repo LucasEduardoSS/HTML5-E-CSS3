@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* id em CSS = # (pode ser usado por apenas um elemento)
+   class em CSSa = . (pode ser usada para varios elementos)
+*/
+
+body {
+    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(62, 104, 180);
+}
+
+h1#titulo-principal {
+    text-align: center;
+    background-color: rgb(62, 104, 180);
+    color: lightgray;
+}
+
+h2 {
+    color: rgb(100, 149, 237);
+}
+
+.basico {
+    color: rgba(60, 130, 60, 0.500);
+}
+
+.intermediario {
+    color: rgba(185, 185, 7, 0.616);
+}
+
+.avancado {
+    color: rgba(196, 54, 54, 0.664);
+}
+
+.destaque {
+    background-color: rgba(150, 150, 11, 0.308);
+}
