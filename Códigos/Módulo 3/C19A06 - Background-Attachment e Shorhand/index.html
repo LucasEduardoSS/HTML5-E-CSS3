@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             /* Como boa prática, deixar uma cor de fundo similar a imagem
             que vai a frente dela, evita prejudicar a experiência do usuário
             com um fundo branco simples.
             */
-            height: 100vh;
+
+            /* height: 100vh;
             background-color: rgb(69, 117, 180);
             background-image: url('../Imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorhand - Background 
+            
+            background: color > image > position > repeat > [size] > attachment;
+            */
+
+            background: rgb(69, 117, 180) url('../Imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
