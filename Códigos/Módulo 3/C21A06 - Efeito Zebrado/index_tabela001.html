@@ -7,11 +7,13 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            height: 3000px;
         }
 
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -29,6 +31,20 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        
+        /* A pseudo-classe 'nth-child' da tag 'tr' pode receber como parâmetro
+        tanto as palavras 'even' e 'odd' como também a incógnita 'n' acompanhada
+        de um valor indexador, por exemplo 2n que aplica os atribuitos a cada 2
+        celulas */
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
 
         .num {
